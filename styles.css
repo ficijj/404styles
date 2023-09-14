@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #CF5C36;
+    height: 40px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: #CF5C36;
+    color: #EEE5E9;
+    height: 40px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:link {
+    color: #EEE5E9;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d6ced2;
+    text-decoration: underline;
+}
