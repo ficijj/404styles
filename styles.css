@@ -3,29 +3,40 @@
     padding: 0;
 }
 
-nav {
+nav, footer {
     background-color: #CF5C36;
     height: 40px;
     position: fixed;
-    right: 0;
-    top: 0;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-footer {
-    background-color: #CF5C36;
-    color: #EEE5E9;
-    height: 40px;
+img {
+    margin: 40px;
+    max-height: 60%;
+    max-width: 60%;
+}
+
+nav {
+    right: 0;
+    top: 0;
+}
+
+section {
+    background-color: #e6e6e6;
     position: fixed;
-    left: 0;
-    bottom: 0;
+    top: 40px;
+    height: 100%;
     width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
 }
 
 a:link {
