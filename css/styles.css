@@ -35,6 +35,7 @@ section {
     height: 100%;
     width: 100%;
     display: flex;
+    flex-direction: row;
     align-items: center;
 }
 
@@ -62,4 +63,16 @@ a:hover {
 #back {
     color: var(--body-text);
     margin-left: 10%;
+}
+
+@media  screen and (max-width: 768px) {
+    section {
+        flex-direction: column-reverse;
+        align-content: flex-start;
+        align-items: center;
+    }
+    .message {
+        padding: auto;
+        margin: 10px;
+    }
 }
